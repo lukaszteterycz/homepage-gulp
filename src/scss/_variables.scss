@@ -1,2 +1,8 @@
 $violet: #000;
 $yellow: #F9C802;
+
+$mobile: 640px;
+
+@mixin borderDashed {
+    border: 10px gray dashed;
+}
