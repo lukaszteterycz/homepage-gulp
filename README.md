@@ -1,4 +1,9 @@
-# wtf-gulp-starter
+# Strona tworzona podczas kursu WTF: Co Ten Frontend?
+
+Zapraszam na https://lukaszteterycz.github.io/homepage-gulp/
+
+
+# Jak uruchomić stronę lokalnie?
 
 `npm install -g gulp-cli`
 
