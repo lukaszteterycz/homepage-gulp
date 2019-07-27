@@ -1,6 +1,12 @@
 @import "_normalize";
 @import "_variables";
 
+@keyframes anim {
+  0% {background:hotpink;}
+  50% {background:rgb(23, 156, 79);}
+  100% {background:hotpink;}
+}
+
 html {
   box-sizing: border-box;
 }
@@ -67,6 +73,7 @@ body {
   }
   &:first-child {
     @include borderDashed;
+    animation: anim 4s ease-in-out;
   }
   
   &:last-child {
@@ -181,6 +188,9 @@ body {
   
   &__link {
     color: #28685e;
+    text-decoration: none;
+    transition: color 2s ease-in-out;
+    will-change: color;
   }
   
   &__link:visited {
@@ -188,7 +198,7 @@ body {
   }
   
   &__link:hover {
-    color: #29127c;
+    color: #7c1220;
   }
   @media (max-width: $mobile){
     &__list {
